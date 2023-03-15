@@ -1,0 +1,32 @@
+*{font-family: sans-serif;}
+[data-js="lamp-container"]{
+	width: 50%;
+	margin: auto;
+	display:flex;
+	flex-direction:column;
+	align-items:center;
+}
+
+[data-js="lamp-container"] img{
+	width: 200px;
+}
+
+.buttons button{
+	padding: 5px 15px;
+	font-size: 20px;
+	border: none;
+	color:#fff;
+	border-radius: 5px;
+	cursor: pointer;
+	transition: .3s;
+}
+
+.buttons button:first-child{background: orange;}
+.buttons button:nth-child(2){background: #0076EA;}
+.buttons button:last-child{background: red;}
+
+.buttons button:hover{
+	background: #fff;
+	color:#444;
+	box-shadow:0px 0px 15px -1px rgba(0,0,0,.3);
+}
